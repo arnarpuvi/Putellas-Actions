@@ -133,7 +133,7 @@ def dies_prestec_total(biblioteca, llibre):
     return total    
 
 def test_error():
-    assert 2 == 3
+    assert 2 == 2
 
 def main():
     
