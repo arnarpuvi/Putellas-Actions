@@ -131,6 +131,10 @@ def dies_prestec_total(biblioteca, llibre):
                 total += usuari["dies"]
             return total
     return total    
+
+def test_example():
+    assert 1 + 1 == 2
+
 def main():
     
     # exercici 1
