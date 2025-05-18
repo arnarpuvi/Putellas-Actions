@@ -4,6 +4,7 @@ Data creació: 8/1/2025
 Última modificació: 9/1/2025
 """
 from biblioteca import *
+from test_biblioteca import *
 import pytest
 @pytest.mark.parametrize("categoria, res_esperat", [
     ("novel·la",['El Quixot', 'Crim i Càstig']), # Test 1 amb la categoria "novel·la"
